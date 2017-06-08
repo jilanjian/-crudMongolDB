@@ -3,7 +3,7 @@ var mongoose = require ('mongoose');
 var app = express();
 
 app.get('/', function(req, res){
-    res.send('siiiiiiiiiiiii se conecto');
+    res.send('<h1>CONECTO</h1>');
     
 });
 
